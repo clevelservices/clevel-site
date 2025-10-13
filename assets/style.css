@@ -132,3 +132,7 @@ ul li i {
   margin-right: 8px;
   color: #007BFF; /* veya siyah: #000 */
 }
+.services-list {
+  list-style: none;
+  padding-left: 0;
+}
