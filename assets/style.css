@@ -32,9 +32,9 @@ main {
 
 /* Logo Görseli */
 .logo {
-  height: 200px;
-  max-width: 600px;
-  margin-right: 10px;
+  height: 300px;
+  max-width: 900px;
+  margin-right: 1px;
   object-fit: contain;
   vertical-align: middle;
 }
