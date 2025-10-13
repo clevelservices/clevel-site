@@ -34,7 +34,7 @@ main {
 .logo {
   height: 200px;
   max-width: 600px;
-  margin-right: 100px;
+  margin-right: 10px;
   object-fit: contain;
   vertical-align: middle;
 }
