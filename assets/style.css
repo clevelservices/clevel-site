@@ -128,3 +128,7 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+ul li i {
+  margin-right: 8px;
+  color: #007BFF; /* veya siyah: #000 */
+}
