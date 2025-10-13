@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>CLEVEL | Ana Sayfa</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header>
+  <img src="assets/Color logo with background.svg" class="logo">
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="about.html">Hakkımızda</a>
+      <a href="contact.html">İletişim</a>
+    </nav>
+  </header>
+  <main>
+<section>
+  <p>
+    C-Level Services, küresel ölçekte faaliyet gösteren firmalara; yatırım fizibilitesi, kamu destekleri, ticari istihbarat ve iç süreç danışmanlığı konularında stratejik destek sunar.
+  </p>
+  <p>
+    Şirketler için güvenilir pazar bilgileri üretir, operasyonel süreçleri iyileştirir ve yatırım fizibilitesi analizlerinde destek sağlar.
+  </p>
+  <p>
+    Türkiye pazarıyla iş yapmak isteyen yabancı firmalara ve yurt dışında büyümek isteyen Türk şirketlerine veriye dayalı hizmetler sunar.
+  </p>
+</section>
+
+<section>
+  <h2>Hizmetlerimiz</h2>
+  <ul>
+    <li>Ticari Bilgi ve Pazar Analizi Hizmeti</li>
+    <li>Yatırım Fizibilitesi Danışmanlığı</li>
+    <li>Süreç ve Kurumsallaşma Danışmanlığı</li>
+    <li>CRM ve Müşteri Deneyimi Danışmanlığı</li>
+    <li>Kaynak Geliştirme Danışmanlığı</li>
+    
+  </ul>
+</section>
+  </main>
+  <footer>
+    <p>&copy; 2025 CLV c-level services 155</p>
+  </footer>
+</body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<ul>
+  <li><i class="fas fa-chart-line"></i> Ticari Bilgi ve Pazar Analizi</li>
+  <li><i class="fas fa-lightbulb"></i> Yatırım Fizibilitesi Danışmanlığı</li>
+  <li><i class="fas fa-cogs"></i> Süreç ve Kurumsallaşma</li>
+  <li><i class="fas fa-hand-holding-usd"></i> Kamu Destekleri</li>
+</ul>
+</html>
