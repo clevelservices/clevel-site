@@ -15,28 +15,124 @@ header, footer {
   text-align: center;
 }
 
-/* Navigasyon Linkleri */
+/* Navigasyon */
+nav {
+  text-align: center;
+  margin-top: 1em;
+}
+
 nav a {
   margin: 0 1em;
   color: #ddd;
   text-decoration: none;
 }
+
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Ana İçerik Alanı */
-main {
-  padding: 2em;
+/* Navigasyon Liste (ul) */
+.nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Logo Görseli */
 .logo {
-  height: 300px;
-  max-width: 900px;
-  margin-right: 1px;
+  height: auto;
+  max-width: 300px;
+  margin-bottom: 1em;
   object-fit: contain;
   vertical-align: middle;
+}
+
+/* Ana İçerik Alanı */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+}
+
+/* Bölümler */
+section {
+  margin-bottom: 2em;
+}
+
+/* Başlıklar */
+h2 {
+  color: #000;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Paragraflar ve Liste */
+p, ul {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Liste Ayarları */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: #000;
+  font-weight: bold;
+}
+
+/* Hizmet Listesi */
+.services-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.services-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+
+.services-list li::marker {
+  color: transparent;
+}
+
+.services-list li i {
+  margin-right: 8px;
+  color: #000;
+}
+
+/* Randevu Butonu */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #000;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #444;
 }
 
 /* Form Düzeni */
@@ -69,73 +165,31 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
+
 button:hover {
   background: #444;
 }
 
-/* Randevu Butonu */
-.button {
-  display: inline-block;
-  padding: 12px 24px;
-  background-color: #000000;
-  color: white;
-  text-decoration: none;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-.button:hover {
-  background-color: #000000;
-}
-main {
-  max-width: 800px;
-  margin: auto;
-  padding: 2em;
-  text-align: center;
-}
+/* Mobil Uyumluluk */
+@media screen and (max-width: 768px) {
+  main {
+    padding: 1em;
+  }
 
-section {
-  margin-bottom: 2em;
-}
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
 
-h2 {
-  color: #000000;         /* Siyah renk */
-  font-family: Arial, sans-serif; /* Yazı tipiyle uyumlu */
-  font-weight: bold;      /* Kalın yazı */
-  margin-bottom: 0.5em;
-}
+  h2 {
+    font-size: 1.5em;
+  }
 
-p, ul {
-  font-size: 1.1em;
-  line-height: 1.6;
-}
+  .services-list li {
+    font-size: 1em;
+  }
 
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li::before {
-  content: "• ";
-  color: #000000;
-  font-weight: bold;
-}
-nav {
-  text-align: center;
-  margin-top: 1em;
-}
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-ul li i {
-  margin-right: 8px;
-  color: #000000; /* veya siyah: #000 */
-.services-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.services-list li::marker {
-  color: transparent;
+  .logo {
+    max-width: 200px;
+  }
 }
