@@ -85,6 +85,11 @@ p, ul {
   text-align: left;
 }
 
+/* İletişim sayfası: metinler ortalı */
+.contact p {
+  text-align: center;
+}
+
 /* Liste Ayarları */
 ul {
   list-style: none;
